@@ -60,7 +60,7 @@ Requests for new features can also be raised at the same location.
 
 #License
 
-Hexcode is released under the MIT license.
+SublimeText.BlitzMax is released under the MIT license.
 
 Copyright (c) 2013 Paul Maskelyne (Muttley) <muttley@muttleyville.org>
 
