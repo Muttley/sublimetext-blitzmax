@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+Rem
+	bbdoc: New MaxUnit Test Type
+EndRem
+Type ${1:TMyTestType} Extends TTest
+
+	Method _setup() {before}
+		' Shared setup for all tests
+	End Method
+
+	Method _teardown() {after}
+		' Shared teardown for all tests
+	End Method
+
+	Method ${2:MyFirstTestMethod}() {test}
+		$0
+	End Method
+
+End Type
+]]></content>
+	<tabTrigger>test-type</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

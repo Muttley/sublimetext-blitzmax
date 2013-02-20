@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+SuperStrict
+$0
+]]></content>
+	<tabTrigger>superstrict</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

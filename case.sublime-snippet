@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Case $1
+	$2
+]]></content>
+	<tabTrigger>case</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>
