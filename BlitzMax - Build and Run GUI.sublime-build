@@ -1,5 +1,6 @@
 {
 	"cmd": ["bmk", "makeapp", "-r", "-a", "-t", "gui", "-x", "${project_base_name:${file_base_name}}.bmx"],
+	"shell": true,
 	"selector": "source.blitzmax",
 	"file_regex": "^\\[([A-Za-z0-9_\\-\\./:]+)(?:;)([0-9]+)(?:;)([0-9]+)\\]$",
 	"working_dir": "${project_path:${folder:${file_path}}}"
