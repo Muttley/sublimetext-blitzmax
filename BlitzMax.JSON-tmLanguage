@@ -15,9 +15,9 @@
 				{ "include": "#preprocessor" },
 				{ "include": "#strings" },
 				{ "include": "#labels" },
+				{ "include": "#numerics" },
 				{ "include": "#operators" },
 				{ "include": "#types" },
-				{ "include": "#numerics" },
 				{ "include": "#keywords" },
 				{ "include": "#tags" },
 				{ "include": "#variables" }

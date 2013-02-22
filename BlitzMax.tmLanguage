@@ -51,15 +51,15 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#numerics</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#operators</string>
 				</dict>
 				<dict>
 					<key>include</key>
 					<string>#types</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#numerics</string>
 				</dict>
 				<dict>
 					<key>include</key>
