@@ -405,7 +405,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b((?i)byte|double|float|int|long|ptr|short|string|var|varptr|(?-i)[T][A-Z]\w+)\b</string>
+					<string>\b((?i)byte|double|float|int|long|object|ptr|short|string|var|varptr|(?-i)[T][A-Z]\w+)\b</string>
 					<key>name</key>
 					<string>storage.type.class.blitzmax</string>
 				</dict>

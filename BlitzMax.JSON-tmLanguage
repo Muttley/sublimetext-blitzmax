@@ -196,7 +196,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.class.blitzmax",
-					"match": "\\b((?i)byte|double|float|int|long|ptr|short|string|var|varptr|(?-i)[T][A-Z]\\w+)\\b"
+					"match": "\\b((?i)byte|double|float|int|long|object|ptr|short|string|var|varptr|(?-i)[T][A-Z]\\w+)\\b"
 				}
 			]
 		},
