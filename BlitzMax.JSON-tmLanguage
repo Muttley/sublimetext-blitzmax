@@ -160,9 +160,11 @@
 							"name": "keyword.control.preprocessor.blitzmax",
 							"match": "\\b(?i:not|debug|threaded|win32|macos|linux|x86|ppc|macosx86|bigendian|littleendian)\\b"
 						},
-						{ "include": "#body" }
+						{
+							"include": "#body"
+						}
 					],
-					"end": "(\\?)",
+					"end": "(\\?)(?!\\s*\\w+)",
 					"endCaptures": {
 						"1": { "name": "keyword.control.preprocessor.blitzmax" }
 					}
