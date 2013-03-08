@@ -66,11 +66,12 @@
 			"patterns": [
 				{
 					"name": "meta.function.definition.blitzmax",
-					"begin": "\\b((?i:function|method))\\s+([a-zA-Z_]\\w*)\\s*(?::\\s*([a-zA-Z_]\\w*))?\\s*\\(",
+					"begin": "\\b((?i:function|method))\\s+([a-zA-Z_]\\w*)\\s*(?::\\s*([a-zA-Z_]\\w*))?(?:\\s+((?i)ptr))?\\s*\\(",
 					"beginCaptures": {
 						"1": { "name": "keyword.other.blitzmax" },
 						"2": { "name": "entity.name.function.blitzmax" },
-						"3": { "name": "storage.type.class.blitzmax" }
+						"3": { "name": "storage.type.class.blitzmax" },
+						"4": { "name": "storage.type.class.blitzmax" }
 					},
 					"patterns": [
 						{ "include": "#body" }
