@@ -140,7 +140,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>\b((?i:function|method))\s+([a-zA-Z_]\w*)\s*(?::\s*([a-zA-Z_]\w*))?(?:\s+((?i)ptr))?\s*\(</string>
+					<string>\b((?i:function|method))\s+([a-zA-Z_]\w*)\s*(?::\s*([a-zA-Z_]\w*))?(?:\s*\[,*\])?(?:\s+((?i)ptr))?\s*\(</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
