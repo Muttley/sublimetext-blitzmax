@@ -6,11 +6,11 @@
 			"description": "BlitzMax language definition for Sublime Text 2",
 			"author": "Paul Maskelyne (Muttley)",
 			"homepage": "https://bitbucket.org/muttley/sublimetext.blitzmax",
-			"last_modified": "2013-03-11 20:26",
+			"last_modified": "2013-03-12 23:42",
 			"platforms": {
 				"version": [
 					{
-						"version": "1.0.6",
+						"version": "1.0.7",
 						"url": "https://bitbucket.org/muttley/sublimetext.blitzmax/get/tip.zip"
 					}
 				]
