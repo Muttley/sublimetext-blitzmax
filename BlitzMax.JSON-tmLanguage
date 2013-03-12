@@ -108,7 +108,7 @@
 			"patterns": [
 				{
 					"name": "constant.numeric.float.blitzmax",
-					"match": "-?(\\.?\\b\\d+(?:e?-?\\d*)|\\b\\d+(?:e-?\\d*)|\\b\\d*\\.\\d+(?:e?-?\\d*))\\b"
+					"match": "-?((?<!\\.)\\.?\\b\\d+(?:e?-?\\d*)|\\b\\d+(?:e-?\\d*)|\\b\\d*\\.\\d+(?:e?-?\\d*))\\b"
 				},
 				{
 					"name": "constant.numeric.integer.blitzmax",
