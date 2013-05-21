@@ -6,7 +6,7 @@
 			"description": "BlitzMax language definition for Sublime Text 2",
 			"author": "Paul Maskelyne (Muttley)",
 			"homepage": "https://bitbucket.org/muttley/sublimetext.blitzmax",
-			"last_modified": "2013-05-21 10:27",
+			"last_modified": "2013-05-21 10:48",
 			"platforms": {
 				"*": [
 					{
