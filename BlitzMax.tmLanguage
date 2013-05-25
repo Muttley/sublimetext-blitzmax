@@ -165,7 +165,15 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>\)</string>
+					<string>\)\s*((?i)abstract|final)?</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>storage.modifier.blitzmax</string>
+						</dict>
+					</dict>
 					<key>name</key>
 					<string>meta.function.definition.blitzmax</string>
 					<key>patterns</key>

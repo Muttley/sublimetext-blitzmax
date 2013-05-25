@@ -76,7 +76,10 @@
 					"patterns": [
 						{ "include": "#body" }
 					],
-					"end": "\\)"
+					"end": "\\)\\s*((?i)abstract|final)?",
+					"endCaptures": {
+						"1": { "name": "storage.modifier.blitzmax" }
+					}
 				}
 			]
 		},
