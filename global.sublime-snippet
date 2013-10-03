@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Global ${1:name}:${2:type} $0
+]]></content>
+	<tabTrigger>global</tabTrigger>
+	<scope>source.blitzmax</scope>>
+</snippet>

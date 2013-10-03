@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+For Local ${1:var}:${2:type} = EachIn ${3:collection}
+	$4
+Next
+$0
+]]></content>
+	<tabTrigger>eachin</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

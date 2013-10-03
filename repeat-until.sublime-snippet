@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Repeat
+	$1
+Until $2
+$0
+]]></content>
+	<tabTrigger>repeat-until</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

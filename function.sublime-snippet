@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Function ${1:name}:${2:returns} ($3)
+	$4
+EndFunction
+$0]]></content>
+	<tabTrigger>function</tabTrigger>
+	<scope>source.blitzmax</scope>>
+</snippet>
