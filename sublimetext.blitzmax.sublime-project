@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns": [],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}
