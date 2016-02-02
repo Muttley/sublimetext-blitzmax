@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+ChannelPlaying( ${1:channel} )
+]]></content>
+	<tabTrigger>channelplaying</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

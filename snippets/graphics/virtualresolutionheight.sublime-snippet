@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+VirtualResolutionHeight()
+]]></content>
+	<tabTrigger>virtualresolutionheight</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

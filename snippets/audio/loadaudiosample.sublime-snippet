@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+LoadAudioSample( "${1:url}" )
+]]></content>
+	<tabTrigger>loadaudiosample</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

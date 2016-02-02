@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MoveVirtualMouse( ${1:x#}, ${2:y#} )
+]]></content>
+	<tabTrigger>movevirtualmouse</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

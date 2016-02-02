@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetBlend()
+]]></content>
+	<tabTrigger>getblend</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

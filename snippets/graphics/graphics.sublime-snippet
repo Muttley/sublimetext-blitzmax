@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Graphics( ${1:width}, ${2:height}, ${3:depth}, ${4:hertz}, ${5:flags} )
+]]></content>
+	<tabTrigger>graphics</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

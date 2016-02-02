@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetTransform( ${1:rotation#}, ${2:scalex#}, ${3:scaley#} )
+]]></content>
+	<tabTrigger>settransform</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

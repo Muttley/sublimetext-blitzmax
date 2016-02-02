@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+AudioDriverExists( "${1:name}" )
+]]></content>
+	<tabTrigger>audiodriverexists</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

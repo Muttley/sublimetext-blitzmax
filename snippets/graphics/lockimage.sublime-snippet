@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+LockImage( ${1:image}, ${2:frame}, ${3:read_lock}, ${4:write_lock} )
+]]></content>
+	<tabTrigger>lockimage</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

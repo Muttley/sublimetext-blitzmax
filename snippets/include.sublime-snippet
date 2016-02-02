@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Include "$0"
+]]></content>
+	<tabTrigger>include</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

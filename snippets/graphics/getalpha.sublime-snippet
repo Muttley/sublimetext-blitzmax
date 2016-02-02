@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetAlpha()
+]]></content>
+	<tabTrigger>getalpha</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

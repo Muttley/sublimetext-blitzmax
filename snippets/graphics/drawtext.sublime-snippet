@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DrawText( ${1:text}, ${2:x#}, ${3:y#} )
+]]></content>
+	<tabTrigger>drawtext</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+ResumeChannel( ${1:channel} )
+]]></content>
+	<tabTrigger>resumechannel</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

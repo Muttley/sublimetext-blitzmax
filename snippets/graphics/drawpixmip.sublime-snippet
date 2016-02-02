@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DrawPixMap( ${1:pixmap}, ${2:x}, ${3:y} )
+]]></content>
+	<tabTrigger>drawpixmap</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

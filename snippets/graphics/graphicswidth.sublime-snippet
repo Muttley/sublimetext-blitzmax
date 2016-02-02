@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GraphicsWidth() 
+]]></content>
+	<tabTrigger>graphicswidth</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

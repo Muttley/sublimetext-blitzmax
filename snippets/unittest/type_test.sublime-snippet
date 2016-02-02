@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+Type ${1:TTestName} Extends TTest
+
+	Field t:${2:TTestType}
+
+	Method Before() {before}
+		t = New ${2}
+	End Method
+
+	Method After() {after}
+		t = Null
+	End Method
+
+	Method MyFirstTestMethod() {test}
+		$0
+	End Method
+
+End Type
+]]></content>
+	<tabTrigger>typetest</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

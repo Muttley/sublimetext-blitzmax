@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+LoadImageFont( "${1:filename}", ${2:size}, ${3:style} )
+]]></content>
+	<tabTrigger>loadimagefont</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

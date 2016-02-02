@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CreateAudioSample( ${1:length}, ${2:hertz}, ${3:format} )
+]]></content>
+	<tabTrigger>createaudiosample</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

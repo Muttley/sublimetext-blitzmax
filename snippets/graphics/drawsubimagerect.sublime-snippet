@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DrawSubImageRect( ${1:image}, ${2:x#}, ${3:y#}, ${4:w#}, ${5:h#}, ${6:sx#}, ${7:sy#}, ${8:sw#}, ${9:sh#}, ${10:hx#}, ${11:hy#}, ${12:frame} )
+]]></content>
+	<tabTrigger>drawsubimagerect</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

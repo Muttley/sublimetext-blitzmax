@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+ImageWidth( ${1:image} ) 
+]]></content>
+	<tabTrigger>imagewidth</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Type ${1:TTypeName} ${2:Extends ${3:TParentType}}
+
+	Function Create:$1($4)
+		Local this:$1 = New $1
+		$0
+		Return this
+	End Function
+	
+End Type
+]]></content>
+	<tabTrigger>typecreate</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

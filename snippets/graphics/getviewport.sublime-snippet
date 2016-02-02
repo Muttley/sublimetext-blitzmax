@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetViewport( ${1:x} Var, ${2:y} Var, ${3:width} Var, ${4:height} Var )
+]]></content>
+	<tabTrigger>getviewport</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

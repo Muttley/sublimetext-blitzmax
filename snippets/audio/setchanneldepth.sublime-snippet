@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetChannelDepth( ${1:channel}, ${2:depth#} )
+]]></content>
+	<tabTrigger>setchanneldepth</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+WriteLine( ${1:stream}, "${2:}" )
+]]></content>
+	<tabTrigger>writeline</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

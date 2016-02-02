@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CollideImage( ${1:image}, ${2:x}, ${3:y}, ${4:frame}, ${5:collidemask}, ${6:writemask}, ${7:id} )
+]]></content>
+	<tabTrigger>collideimage</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

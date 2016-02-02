@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+UnlockImage( ${1:image} )
+]]></content>
+	<tabTrigger>unlockimage</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

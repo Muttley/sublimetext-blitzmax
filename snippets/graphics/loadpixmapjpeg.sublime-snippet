@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+LoadPixmapJPeg( "${1:url}" ) 
+]]></content>
+	<tabTrigger>loadpixmapjpg</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetClsColor( ${1:red}, ${2:green}, ${3:blue} )
+]]></content>
+	<tabTrigger>setclscolor</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

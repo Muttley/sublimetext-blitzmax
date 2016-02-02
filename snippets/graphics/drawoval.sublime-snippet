@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DrawOval( ${1:x#}, ${2:y#}, ${3:width#}, ${4:height#} )
+]]></content>
+	<tabTrigger>drawoval</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetOrigin( ${1:x} Var, ${2:y} Var )
+]]></content>
+	<tabTrigger>getorigin</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

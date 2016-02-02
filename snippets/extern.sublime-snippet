@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Extern
+	$1
+EndExtern
+]]></content>
+	<tabTrigger>extern</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

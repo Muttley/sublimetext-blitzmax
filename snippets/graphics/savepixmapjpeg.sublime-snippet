@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SavePixmapJPeg( ${1:object}, ${2:quality} ) 
+]]></content>
+	<tabTrigger>savepixmapjpeg</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

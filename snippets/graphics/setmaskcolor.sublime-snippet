@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+setMaskColor( ${1:red},${2:green},${3:blue} )
+]]></content>
+	<tabTrigger>setmaskcolor</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

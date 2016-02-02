@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DrawLine( ${1:x1#}, ${2:y1#}, ${3:x2#}, ${4:x3#}, ${5:last_pixel} )
+]]></content>
+	<tabTrigger>drawline</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

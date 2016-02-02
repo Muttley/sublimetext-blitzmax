@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Rem
+	bbdoc:   $1
+	about:   $2
+	returns: $3
+EndRem
+]]></content>
+	<tabTrigger>bbdoc</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

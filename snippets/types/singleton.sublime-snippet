@@ -1,0 +1,37 @@
+
+<snippet>
+	<content><![CDATA[
+Type ${1:TSingletonName}
+
+	Global instance:${1:TSingletonName}
+
+	Function GetInstance:${1:TSingletonName}()
+		If instance = Null Then
+			Return New ${1:TSingletonName}
+		EndIf
+		Return instance
+	End Function
+
+	Method New()
+		If instance Then Throw "Unable to create instance of singleton class"
+		instance = Self
+		Self.Initialise()
+	End Method
+
+	Method Delete()
+	End Method
+
+	Method Destroy()
+		instance = Null
+	End Method
+
+	Method Initialize()
+		$0
+	End Method
+
+End Type
+]]></content>
+	<tabTrigger>singleton</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>
+

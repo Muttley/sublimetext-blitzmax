@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetImageFont( ${1:font} )
+]]></content>
+	<tabTrigger>setimagefont</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

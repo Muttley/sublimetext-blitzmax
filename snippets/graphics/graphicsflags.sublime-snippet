@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GraphicsFlags() 
+]]></content>
+	<tabTrigger>graphicsflags</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

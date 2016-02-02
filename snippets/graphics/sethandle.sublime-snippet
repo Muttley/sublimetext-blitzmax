@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetHandle( ${1:x#}, ${2:y#} )
+]]></content>
+	<tabTrigger>sethandle</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

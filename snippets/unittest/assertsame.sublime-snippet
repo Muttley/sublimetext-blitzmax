@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+AssertSame(${1:expected}, ${2:actual}, "${3:message}")
+]]></content>
+	<tabTrigger>assertsame</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

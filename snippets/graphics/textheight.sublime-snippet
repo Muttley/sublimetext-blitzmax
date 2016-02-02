@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+TextHeight( ${1:text} )
+]]></content>
+	<tabTrigger>textheight</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

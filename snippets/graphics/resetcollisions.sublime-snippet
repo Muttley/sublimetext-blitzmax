@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+ResetCollisions( ${1:mask%} )
+]]></content>
+	<tabTrigger>resetcollisions</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

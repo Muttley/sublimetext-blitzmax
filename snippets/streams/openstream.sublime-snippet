@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+OpenStream( "${1:url}", ${2:reabable}, ${3:writeable} )
+]]></content>
+	<tabTrigger>openstream</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

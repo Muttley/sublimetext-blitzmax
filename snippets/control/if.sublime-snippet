@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[If $1
+	$2
+EndIf
+$0
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

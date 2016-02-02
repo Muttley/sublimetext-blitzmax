@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetGraphicsDriver( ${1:driver}, ${2:defaultflags} )
+]]></content>
+	<tabTrigger>setgraphicsdriver</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

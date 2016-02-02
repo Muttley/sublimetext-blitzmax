@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetAlpha( ${1:alpha#} )
+]]></content>
+	<tabTrigger>setalpha</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

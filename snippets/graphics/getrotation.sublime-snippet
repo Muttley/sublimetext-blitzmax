@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetRotation()
+]]></content>
+	<tabTrigger>getrotation</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

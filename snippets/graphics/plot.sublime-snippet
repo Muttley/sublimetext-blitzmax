@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Plot( ${1:x#}, ${2:y#} )
+]]></content>
+	<tabTrigger>plot</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+LoadAnimImage( "${1:filename}", ${2:framewidth}, ${3:frameheight}, ${4:firstframe}, ${5:lastframe})
+]]></content>
+	<tabTrigger>loadanimimage</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

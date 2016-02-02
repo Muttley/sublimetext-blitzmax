@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetLineWidth()
+]]></content>
+	<tabTrigger>getlinewidth</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

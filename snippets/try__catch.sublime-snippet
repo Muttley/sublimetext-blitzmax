@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Try
+	$1
+Catch
+	
+EndTry
+]]></content>
+	<tabTrigger>trycatch</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

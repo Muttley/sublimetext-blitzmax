@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+For Local ${1:item}:${2:listtype} = Eachin ${3:listname}
+	$0
+Next
+]]></content>
+	<tabTrigger>listiterate</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+SetChannelPan( ${1:channel}, ${2:pan#} )
+]]></content>
+	<tabTrigger>setchannelpan</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

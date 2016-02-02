@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+OpenALInstalled()
+]]></content>
+	<tabTrigger>openalinstalled</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

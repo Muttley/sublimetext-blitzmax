@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+For Local ${1:mapObj:Object} = EachIn ${2:map}.Values()
+	$0
+Next
+]]></content>
+	<tabTrigger>mapiterate</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

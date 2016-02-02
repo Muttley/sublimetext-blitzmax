@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CollideRect( ${1:x}, ${2:y}, ${3:w}, ${4:h}, ${5:collidemask}, ${6:writemask}, ${7:id} )
+]]></content>
+	<tabTrigger>colliderect</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

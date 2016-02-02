@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CloseStream( ${1:stream} )
+]]></content>
+	<tabTrigger>closestream</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+LoadImage( "incbin::${1:filename}" )
+]]></content>
+	<tabTrigger>loadimageincbin</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

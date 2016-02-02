@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetScale( ${1:scalex#} Var, ${2:scaley#} Var )
+]]></content>
+	<tabTrigger>getscale</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

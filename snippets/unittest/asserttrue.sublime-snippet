@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+AssertTrue(${1:result}, "${2:message}")
+]]></content>
+	<tabTrigger>asserttrue</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

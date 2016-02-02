@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+KeyHit( ${1:code} )
+]]></content>
+	<tabTrigger>keyhit</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

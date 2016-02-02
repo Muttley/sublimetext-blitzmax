@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetMaskColor()
+]]></content>
+	<tabTrigger>getmaskcolor</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

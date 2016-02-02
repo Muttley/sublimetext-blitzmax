@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GetColor( ${1:r} Var, ${2:g} Var, ${3:b} Var )
+]]></content>
+	<tabTrigger>getcolor</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

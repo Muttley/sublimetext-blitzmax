@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+VirtualMouseYSpeed()
+]]></content>
+	<tabTrigger>virtualmouseyspeed</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+For Local ${1:strIndex:Int} = 0 Until ${2:aString}.Length
+	$0
+]]></content>
+	<tabTrigger>stringiterate</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

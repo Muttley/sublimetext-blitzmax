@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+GrabPixMap( ${1:x}, ${2:y}, ${3:width}, ${4:height} )
+]]></content>
+	<tabTrigger>grabpixmap</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

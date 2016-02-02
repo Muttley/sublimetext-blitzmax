@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+AutoMidHandle( ${1:bool} )
+]]></content>
+	<tabTrigger>automidhandle</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

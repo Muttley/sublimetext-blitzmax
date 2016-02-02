@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+DrawPoly( ${1:xy#[]} )
+]]></content>
+	<tabTrigger>drawpoly</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>
