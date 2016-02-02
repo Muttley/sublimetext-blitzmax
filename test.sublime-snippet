@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Method ${1:NewTest}() {test}
-	$0
-End Method
-]]></content>
-	<tabTrigger>test</tabTrigger>
-	<scope>source.blitzmax</scope>
-</snippet>

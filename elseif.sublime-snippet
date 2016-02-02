@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-ElseIf
-	$0
-]]></content>
-	<tabTrigger>elseif</tabTrigger>
-	<scope>source.blitzmax</scope>
-</snippet>

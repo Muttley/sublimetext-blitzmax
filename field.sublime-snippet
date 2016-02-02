@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Field ${1:name}:${2:type} $0
-]]></content>
-	<tabTrigger>field</tabTrigger>
-	<scope>source.blitzmax</scope>>
-</snippet>
