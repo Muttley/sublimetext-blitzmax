@@ -65,7 +65,7 @@ Requests for new features can also be raised at the same location.
 
 SublimeText.BlitzMax is released under the MIT license.
 
-Copyright (c) 2013 Paul Maskelyne (Muttley) <muttley@muttleyville.org>
+Copyright (c) 2013-2016 Paul Maskelyne (Muttley) <muttley@muttleyville.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
