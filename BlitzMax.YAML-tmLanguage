@@ -232,10 +232,6 @@ repository:
 
   variables:
     patterns:
-    # - name: meta.variable.blitzmax
-    #   match: \b(?!\s*\w+\s*(?:\(|"))(\w+)\b
-    #   captures:
-    #     '1': {name: variable.other.blitzmax}
     - name: variable.language.blitzmax
       match: \b(?i:self|super)\b
 
