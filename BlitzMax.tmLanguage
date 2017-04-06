@@ -281,13 +281,13 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:case|catch|continue|default|delete|eachin|else|else\s*if|end\s*(?:if|select|try)|exit|exit_|for|forever|goto|if|new|next|onend|private|public|repeat|return|select|step|then|throw|try|to|until|wend|while)\b</string>
+					<string>\b(?i:case|catch|continue|default|delete|eachin|else|else\s*if|extern|end\s*(?:extern|if|select|try)|exit|exit_|for|forever|goto|if|new|next|onend|private|public|repeat|return|select|step|then|throw|try|to|until|wend|while)\b</string>
 					<key>name</key>
 					<string>keyword.control.blitzmax</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:assert|const|debugstop|debuglog|extern|field|global|local|module|moduleinfo|framework|import|include|incbin|incbinlen|incbinptr|runtimeerror|strict|superstrict)\b</string>
+					<string>\b(?i:assert|const|debugstop|debuglog|field|global|local|module|moduleinfo|framework|import|include|incbin|incbinlen|incbinptr|runtimeerror|strict|superstrict)\b</string>
 					<key>name</key>
 					<string>keyword.other.blitzmax</string>
 				</dict>
