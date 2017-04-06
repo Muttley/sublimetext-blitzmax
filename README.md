@@ -27,7 +27,7 @@ an assumption has been made that type names match the following regex
 This format is already widely used by BlitzMax developers, and is pretty much
 the standard in the existing BlitzMax code base.
 
-##Build Systems
+## Systems
 
 In order for the build systems to work the `BlitzMax/bin` directory needs to be
 in your system path.
