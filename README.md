@@ -1,10 +1,10 @@
-#About
+# About
 
 SublimeText.BlitzMax is a [Sublime Text][1] language definition that provides
 syntax highlighting, build systems and code snippets for the [BlitzMax][2]
 programming language.
 
-##Installation
+## Installation
 
 This package has been submitted to the [Package Control][3] index and you can
 then install it via the Command Palette (CTRL + Shift + P), typing `install` and
@@ -15,9 +15,9 @@ In the meantime, or if you do not use Package Control, download a [zip][4] or
 [tarball][5] archive, extract the archive, rename the directory to `BlitzMax`
 and simply drop this directory into your Sublime Text Packages directory.
 
-#NOTES
+# NOTES
 
-##Syntax Highlighting Limitations
+## Syntax Highlighting Limitations
 
 In an effort to ensure that custom BlitzMax types can be highlighted correctly
 an assumption has been made that type names match the following regex
@@ -53,7 +53,7 @@ building.  For example if you're editing file
 `MyNewGame.sublime-project` then the build system will attempt to build
 `PROJECT_ROOT/MyNewGame.bmx` rather than the currently edited file.
 
-##Bug Reports and Feature Requests
+## Bug Reports and Feature Requests
 
 If you find any problems with this plugin, please raise an issue at the
 repository's [issue tracker][6], including a detailed description of the issue
@@ -61,7 +61,7 @@ and if possible a section of example code which highlights the issue.
 
 Requests for new features can also be raised at the same location.
 
-#License
+# License
 
 SublimeText.BlitzMax is released under the MIT license.
 
