@@ -7,13 +7,13 @@ programming language.
 ## Installation
 
 This package has been submitted to the [Package Control][3] index and you can
-then install it via the Command Palette (CTRL + Shift + P), typing `install` and
+install it via the Command Palette (CTRL + Shift + P), typing `install` and
 selecting `Package Control: Install Package`. In the subsequent popup text box
 type `blitzmax` and pick the `BlitzMax` package.
 
-In the meantime, or if you do not use Package Control, download a [zip][4] or
-[tarball][5] archive, extract the archive, rename the directory to `BlitzMax`
-and simply drop this directory into your Sublime Text Packages directory.
+If you do not use Package Control, download a `zip` or `tar.gz` archive of the
+[latest release][4], extract the archive, rename the directory to `BlitzMax` and
+simply drop this directory into your Sublime Text Packages directory.
 
 # NOTES
 
@@ -56,7 +56,7 @@ building.  For example if you're editing file
 ## Bug Reports and Feature Requests
 
 If you find any problems with this plugin, please raise an issue at the
-repository's [issue tracker][6], including a detailed description of the issue
+repository's [issue tracker][5], including a detailed description of the issue
 and if possible a section of example code which highlights the issue.
 
 Requests for new features can also be raised at the same location.
@@ -87,6 +87,5 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [1]: http://www.sublimetext.com/
 [2]: http://www.blitzbasic.com/Products/blitzmax.php
 [3]: http://wbond.net/sublime_packages/package_control
-[4]: https://bitbucket.org/muttley/sublimetext.blitzmax/get/tip.zip
-[5]: https://bitbucket.org/muttley/sublimetext.blitzmax/get/tip.tar.bz2
-[6]: https://bitbucket.org/muttley/sublimetext.blitzmax/issues?status=new&status=open
+[4]: https://github.com/Muttley/sublimetext-blitzmax/releases
+[5]: https://github.com/Muttley/sublimetext-blitzmax/issues
