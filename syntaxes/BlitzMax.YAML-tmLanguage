@@ -155,7 +155,7 @@ repository:
   function-name:
     patterns:
     - name: meta.function-definition.blitzmax
-      match: '\b((?<=Function|function|Method|method)\s+([A-Z]\w*))\b'
+      match: '\b((?<=Function|function|Method|method)\s+([A-Za-z]\w*))\b'
       comment: a function or method name following the keyword
       captures:
         '2': {name: entity.name.function.blitzmax}
@@ -163,7 +163,7 @@ repository:
   function-name2:
     patterns:
     - name: entity.name.function.blitzmax
-      match: '\b((?<=\.)[A-Z]\w*)\b'
+      match: '\b((?<=\.)[A-Za-z]\w*)\b'
       comment: a function or method name preceded by a .
 
   keywords:
