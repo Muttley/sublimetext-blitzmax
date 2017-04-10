@@ -1,6 +1,6 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
-name: BlitzMax1.50
+name: BlitzMax
 scopeName: source.blitzmax
 fileTypes: [bmx]
 uuid: 8b9f1c4e-acb5-4c4c-900e-b17c5d916811
