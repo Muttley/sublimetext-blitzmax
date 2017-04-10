@@ -255,7 +255,7 @@
 					<key>comment</key>
 					<string>a function or method name following the keyword</string>
 					<key>match</key>
-					<string>\b((?&lt;=Function|function|Method|method)\s+([A-Za-z]\w*))\b</string>
+					<string>\b((?&lt;=Function|function|Method|method)\s+([A-Za-z_]\w*))\b</string>
 					<key>name</key>
 					<string>meta.function-definition.blitzmax</string>
 				</dict>
@@ -269,7 +269,7 @@
 					<key>comment</key>
 					<string>a function or method name preceded by a .</string>
 					<key>match</key>
-					<string>\b((?&lt;=\.)[A-Za-z]\w*)\b</string>
+					<string>\b((?&lt;=\.)[A-Za-z_]\w*)\b</string>
 					<key>name</key>
 					<string>entity.name.function.blitzmax</string>
 				</dict>
@@ -629,7 +629,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:self|super)\b</string>
+					<string>\b(?i:self|super|[A-Za-z_]\w*)\b</string>
 					<key>name</key>
 					<string>variable.language.blitzmax</string>
 				</dict>
