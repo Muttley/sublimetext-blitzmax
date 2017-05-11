@@ -605,7 +605,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b([T][A-Z][a-z]\w*)\b</string>
+					<string>\b((?&lt;!:)[T][A-Z][a-z]\w*)\b</string>
 					<key>name</key>
 					<string>entity.name.type.blitzmax</string>
 				</dict>

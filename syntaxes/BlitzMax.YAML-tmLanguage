@@ -103,7 +103,7 @@ repository:
   type-name:
     patterns:
     - name: entity.name.type.blitzmax
-      match: '\b([T][A-Z][a-z]\w*)\b'
+      match: '\b((?<!:)[T][A-Z][a-z]\w*)\b'
 
   type-definition:
     patterns:
