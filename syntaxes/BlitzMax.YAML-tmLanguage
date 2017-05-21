@@ -18,18 +18,24 @@ repository:
   body:
     patterns:
     - include: '#function-definition'
-    - include: '#function.name'
+    - include: '#function-name'
     - include: '#function-name2'
     - include: '#type-definition'
     - include: '#common'
 
-  type-body:
+  common:
     patterns:
-    - include: '#type-modifiers'
-    - include: '#reflection-tags'
-    - include: '#function-definition'
-    - include: '#method-definition'
-    - include: '#common'
+    - include: '#types'
+    - include: '#types2'
+    - include: '#comments'
+    - include: '#constants'
+    - include: '#preprocessor'
+    - include: '#strings'
+    - include: '#labels'
+    - include: '#numerics'
+    - include: '#operators'
+    - include: '#keywords'
+    - include: '#variables'
 
   function-body:
     patterns:
@@ -47,21 +53,13 @@ repository:
     - include: '#type-name'
     - include: '#common'
 
-  common:
+  type-body:
     patterns:
-    - include: '#type-name'
-    - include: '#function-name2'
-
-    - include: '#types'
-    - include: '#comments'
-    - include: '#constants'
-    - include: '#preprocessor'
-    - include: '#strings'
-    - include: '#labels'
-    - include: '#numerics'
-    - include: '#operators'
-    - include: '#keywords'
-    - include: '#variables'
+    - include: '#type-modifiers'
+    - include: '#reflection-tags'
+    - include: '#function-definition'
+    - include: '#method-definition'
+    - include: '#common'
 
   comments:
     patterns:
@@ -88,47 +86,6 @@ repository:
     - name: constant.character.escape.blitzmax
       match: ~.
 
-  types:
-    patterns:
-    - name: storage.type.class.blitzmax
-      match: \b(?i:byte|double|float|int|long|object|ptr|short|string|var|varptr)\b
-
-  reflection-tags:
-    patterns:
-    - name: meta.reflection-tag.blitzmax
-      match: '{(\w+)}'
-      captures:
-        '1': {name: constant.language.reflection-tag.blitzmax}
-
-  type-name:
-    patterns:
-    - name: entity.name.type.blitzmax
-      match: '\b((?<!:)[T][A-Z][a-z]\w*)\b'
-
-  type-definition:
-    patterns:
-    - name: meta.type-definition.blitzmax
-      begin: \b(?i:(type))\b
-      beginCaptures:
-        '1': {name: keyword.blitzmax}
-      end: \b(?i:(end\s*type))\b
-      endCaptures:
-        '1': {name: keyword.blitzmax}
-      patterns:
-      - include: '#type-body'
-
-  method-definition:
-    patterns:
-    - name: meta.method-definition.blitzmax
-      begin: \b(?i:(method))\b
-      beginCaptures:
-        '1': {name: keyword.blitzmax}
-      end: \b(?i:(end\s*method))\b
-      endCaptures:
-        '1': {name: keyword.blitzmax}
-      patterns:
-      - include: '#method-body'
-
   function-definition:
     patterns:
     - name: meta.function-definition.blitzmax
@@ -140,11 +97,6 @@ repository:
         '1': {name: keyword.blitzmax}
       patterns:
       - include: '#function-body'
-
-  type-modifiers:
-    patterns:
-    - name: storage.modifier.blitzmax
-      match: \b(?i:extends|final|abstract)\b
 
   function-modifiers:
     patterns:
@@ -162,7 +114,7 @@ repository:
 
   function-name2:
     patterns:
-    - name: entity.name.function.blitzmax
+    - name: meta.name.function.blitzmax
       match: '\b((?<=\.)[A-Za-z_]\w*)\b'
       comment: a function or method name preceded by a .
 
@@ -179,6 +131,18 @@ repository:
     patterns:
     - name: variable.language.blitzmax
       match: (#\b\w+)\b
+
+  method-definition:
+    patterns:
+    - name: meta.method-definition.blitzmax
+      begin: \b(?i:(method))\b
+      beginCaptures:
+        '1': {name: keyword.blitzmax}
+      end: \b(?i:(end\s*method))\b
+      endCaptures:
+        '1': {name: keyword.blitzmax}
+      patterns:
+      - include: '#method-body'
 
   numerics:
     patterns:
@@ -218,6 +182,13 @@ repository:
         match: \b(?i:not|debug|threaded|win32|macos|linux|x86|ppc|macosx86|bigendian|littleendian)\b
       - include: '#body'
 
+  reflection-tags:
+    patterns:
+    - name: meta.reflection-tag.blitzmax
+      match: '{(\w+)}'
+      captures:
+        '1': {name: constant.language.reflection-tag.blitzmax}
+
   strings:
     patterns:
     - name: string.quoted.double.blitzmax
@@ -225,6 +196,38 @@ repository:
       end: '"'
       patterns:
       - include: '#escaped-characters'
+
+  type-definition:
+    patterns:
+    - name: meta.type-definition.blitzmax
+      begin: \b(?i:(type))\b
+      beginCaptures:
+        '1': {name: keyword.blitzmax}
+      end: \b(?i:(end\s*type))\b
+      endCaptures:
+        '1': {name: keyword.blitzmax}
+      patterns:
+      - include: '#type-body'
+
+  type-modifiers:
+    patterns:
+    - name: storage.modifier.blitzmax
+      match: \b(?i:extends|final|abstract)\b
+
+  type-name:
+    patterns:
+    - name: entity.name.type.blitzmax
+      match: '\b((?<!:)[T][A-Z][a-z]\w*)\b'
+
+  types2:
+    patterns:
+    - name: entity.name.type.blitzmax
+      match: '\b([T][A-Z][a-z]\w*)\b'
+
+  types:
+    patterns:
+    - name: storage.type.class.blitzmax
+      match: \b(?i:byte|double|float|int|long|object|ptr|short|string|var|varptr)\b
 
   variables:
     patterns:

@@ -27,7 +27,7 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#function.name</string>
+					<string>#function-name</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -78,15 +78,11 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#type-name</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#function-name2</string>
-				</dict>
-				<dict>
-					<key>include</key>
 					<string>#types</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#types2</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -271,7 +267,7 @@
 					<key>match</key>
 					<string>\b((?&lt;=\.)[A-Za-z_]\w*)\b</string>
 					<key>name</key>
-					<string>entity.name.function.blitzmax</string>
+					<string>meta.name.function.blitzmax</string>
 				</dict>
 			</array>
 		</dict>
@@ -620,6 +616,18 @@
 					<string>\b(?i:byte|double|float|int|long|object|ptr|short|string|var|varptr)\b</string>
 					<key>name</key>
 					<string>storage.type.class.blitzmax</string>
+				</dict>
+			</array>
+		</dict>
+		<key>types2</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\b([T][A-Z][a-z]\w*)\b</string>
+					<key>name</key>
+					<string>entity.name.type.blitzmax</string>
 				</dict>
 			</array>
 		</dict>
