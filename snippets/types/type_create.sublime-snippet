@@ -6,9 +6,9 @@ Type ${1:TTypeName} ${2:Extends ${3:TParentType}}
 		Local this:$1 = New $1
 		$0
 		Return this
-	End Function
-	
-End Type
+	EndFunction
+
+EndType
 ]]></content>
 	<tabTrigger>typecreate</tabTrigger>
 	<scope>source.blitzmax</scope>

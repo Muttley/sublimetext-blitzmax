@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Print( "$1" )
+Print ("$1")
 ]]></content>
 	<tabTrigger>print</tabTrigger>
 	<scope>source.blitzmax</scope>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-AssertNotNull(${1:result}, "${2:message}")
+AssertNotNull (${1:result}, "${2:message}")
 ]]></content>
 	<tabTrigger>assertnotnull</tabTrigger>
 	<scope>source.blitzmax</scope>

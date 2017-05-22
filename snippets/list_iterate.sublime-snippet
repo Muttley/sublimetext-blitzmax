@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-For Local ${1:item}:${2:listtype} = Eachin ${3:listname}
+For Local ${1:item}:${2:listtype} = EachIn ${3:listname}
 	$0
 Next
 ]]></content>

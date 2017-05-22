@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-SeedRnd( ${1:seed} )
+SeedRnd (${1:seed})
 ]]></content>
 	<tabTrigger>seedrnd</tabTrigger>
 	<scope>source.blitzmax</scope>

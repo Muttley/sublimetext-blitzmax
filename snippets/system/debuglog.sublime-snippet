@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-DebugLog( "${1:message}" )
+DebugLog ("${1:message}")
 ]]></content>
 	<tabTrigger>debuglog</tabTrigger>
 	<scope>source.blitzmax</scope>

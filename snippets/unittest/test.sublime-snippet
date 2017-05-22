@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Method ${1:NewTest}() {test}
 	$0
-End Method
+EndMethod
 ]]></content>
 	<tabTrigger>test</tabTrigger>
 	<scope>source.blitzmax</scope>

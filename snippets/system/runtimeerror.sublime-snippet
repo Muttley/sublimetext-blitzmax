@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-RuntimeError( "${1:message}" )
+RuntimeError ("${1:message}")
 ]]></content>
 	<tabTrigger>runtimeerror</tabTrigger>
 	<scope>source.blitzmax</scope>

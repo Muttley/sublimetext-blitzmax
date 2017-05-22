@@ -4,11 +4,11 @@ Field ${1:variablename}:${2:Int}
 
 Method Get${1}:${2}()
 	Return ${1}
-End Method
+EndMethod
 
-Method Set${1}( value:${2} )
+Method Set${1} (value:${2})
 	Self.${1} = value
-End Method
+EndMethod
 $0
 ]]></content>
 	<tabTrigger>fieldgettersetter</tabTrigger>
