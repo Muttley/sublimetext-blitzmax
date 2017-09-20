@@ -3,7 +3,7 @@
 Rem
 	bbdoc: New Type
 EndRem
-Type ${1:TTypeName} ${2:Extends ${3:TParentType}}
+Type ${1:TTypeName}${2: Extends ${3:TParentType}}
 	$0
 EndType
 ]]></content>

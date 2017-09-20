@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+assertEqualsL (${1:expected}, ${2:actual}${3:, "${4:message}"})
+]]></content>
+	<tabTrigger>assertequalsl</tabTrigger>
+	<scope>source.blitzmax</scope>
+</snippet>

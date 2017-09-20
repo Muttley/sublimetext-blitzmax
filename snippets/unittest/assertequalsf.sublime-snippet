@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-AssertEqualsF (${1:expected}, ${2:actual}, ${3:0.01}, "${4:message}")
+assertEqualsF (${1:expected}, ${2:actual}, ${3:0.0001}${4:, "${5:message}"}) $0
 ]]></content>
 	<tabTrigger>assertequalsf</tabTrigger>
 	<scope>source.blitzmax</scope>

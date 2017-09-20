@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Method Test${1:NewTest}() {test}
+Method ${1:TestName}() {test}
 	$0
 EndMethod
 ]]></content>

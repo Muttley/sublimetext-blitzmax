@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Type ${1:TTypeName} ${2:Extends ${3:TParentType}}
+Type ${1:TTypeName}${2: Extends ${3:TParentType}}
 
 	Function Create:$1($4)
 		Local this:$1 = New $1

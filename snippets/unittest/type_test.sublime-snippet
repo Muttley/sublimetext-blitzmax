@@ -8,9 +8,7 @@ Type ${1:TTestName} Extends TTest
 	Method After() {after}
 	EndMethod
 
-	Method ${2:MyFirstTestMethod}() {test}
-		$0
-	EndMethod
+	$0
 
 EndType
 ]]></content>

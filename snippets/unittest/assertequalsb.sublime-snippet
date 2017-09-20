@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-AssertEqualsB (${1:expected}, ${2:actual}, "${3:message}")
+assertEqualsB (${1:expected}, ${2:actual}${3:, "${4:message}"}) $0
 ]]></content>
-	<tabTrigger>assertequalsb</tabTrigger>
+	<tabTrigger>assertequals-byte</tabTrigger>
 	<scope>source.blitzmax</scope>
 </snippet>

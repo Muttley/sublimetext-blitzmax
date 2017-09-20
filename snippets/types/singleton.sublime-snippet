@@ -1,28 +1,28 @@
 
 <snippet>
 	<content><![CDATA[
-Type ${1:TSingletonName}
+Type ${1:TSingletonName}${2: Extends ${3:TParentType}}
 
-	Global instance:${1:TSingletonName}
+	Global _instance:${1:TSingletonName}
 
 	Function GetInstance:${1:TSingletonName}()
-		If instance = Null Then
+		If _instance = Null Then
 			Return New ${1:TSingletonName}
 		EndIf
-		Return instance
+		Return _instance
 	End Function
 
 	Method New()
-		If instance Then Throw "Unable to create instance of singleton class"
-		instance = Self
-		Self.Initialise()
+		If _instance Then Throw "Unable to create instance of singleton class"
+		_instance = Self
+		Initialise()
 	End Method
 
 	Method Delete()
 	End Method
 
 	Method Destroy()
-		instance = Null
+		_instance = Null
 	End Method
 
 	Method Initialize()
